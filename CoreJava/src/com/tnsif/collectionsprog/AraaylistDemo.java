@@ -23,6 +23,7 @@ public class AraaylistDemo {
 		while(i.hasNext()) {
 			String a=i.next();
 			System.out.println(a);
+			
 		}
 	}
 
