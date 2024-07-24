@@ -6,7 +6,7 @@ public class TaskScheduler {
 			while(interval > 0) {
 				try {
 					t.execute();
-					Thread.sleep(interval*1000);
+					Thread.sleep(interval*1000);//execution of task after interval seconds
 				} catch(Exception e) {
 					System.out.println("failed to execute "+e.getMessage());
 				}
